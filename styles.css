@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
+/* ESTILOS GENERALES */
 *{
   font-family:apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
   line-height: 1.5em;
 }
 
-.clear-fix{
-  clear: both;
-}
+/* ESTILOS GENERALES DE TAGS */
 
 nav {
   background-color: #C12127;
@@ -16,6 +15,32 @@ nav {
   padding-bottom: 15px;
   padding-left: 15px;
 }
+
+/* ESTILOS MULTIPROPOSITOS */
+
+.clear-fix{
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 900px;
+}
+
+.brand-text{
+  color: rgb(208, 74, 73);
+}
+
+/* ESTILOS DE LA PAGINA */
 
 nav a {
   color: rgba(255,255,255,0.8);
@@ -49,29 +74,20 @@ nav a {
 
 .search-bar{
   margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.align-center{
-  padding: 20px 0;
+.form-search{
+  width: 84%;
+  padding-left: 10px;
+  padding-right: 15px;
 }
 
 .box{
-  width: 1750px;
+  width: 95%;
   padding: 10px 0;
   background-color: rgb(31, 82, 111);
-}
-
-.search-icon{
-  background-color: rgb(31, 82, 111);
-  color: rgb(31, 82, 111);
-}
-
-.float-left{
-  float: left;
-}
-
-.float-right{
-  float: right;
 }
 
 .build{
@@ -103,22 +119,12 @@ nav a {
   margin: 0 auto; 
 }
 
-.section2{
-  display: inline-block;
-}
-
 .col-2{
   width: 45%;
 }
 
 .col-middle{
   margin: 0 5%;
-}
-
-.container{
-  margin: 0 auto;
-  padding: 30px 0;
-  width: 900px;
 }
 
 .lk-orgs{
@@ -193,8 +199,4 @@ nav a {
   color: rgb(135, 145, 156);
   padding: 10px 60px;
   margin: 0 auto;
-}
-
-.brand-text{
-  color: rgb(208, 74, 73);
 }

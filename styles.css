@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+*{
+  font-family:apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  line-height: 1.5em;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.acronym{
+  padding-left: 20px;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.section1{
+  height: 400px;
+  background-image: url("./images/city-scape.svg");  
+  background-size: cover;
+  color: white;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.search-bar{
+  margin: 0 auto;
+}
+
+.align-center{
+  padding: 20px 0;
+}
+
+.box{
+  width: 1750px;
+  padding: 10px 0;
+  background-color: rgb(31, 82, 111);
+}
+
+.search-icon{
+  background-color: rgb(31, 82, 111);
+  color: rgb(31, 82, 111);
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.build{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.lk-login{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  padding: 20px 0;
+}
+
+.lk-signup{
+  background-color: rgb(240, 146, 51);
+  border-radius: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sec-collab{
+  height: 420px;
+  background: rgb(39, 53, 71);
+  color: white;
+  padding: 10px 0;
+  margin: 0 auto; 
+}
+
+.section2{
+  display: inline-block;
+}
+
+.col-2{
+  width: 45%;
+}
+
+.col-middle{
+  margin: 0 5%;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 900px;
+}
+
+.lk-orgs{
+  background-color: rgb(203, 56, 55);
+  border-radius: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.middle-li{
+  line-height: 2.5em;
+}
+
+.sec-whatis{
+  height: 400px;
+  background-image: url("./images/forklift.svg");  
+  background-size: cover;
+  color: white;
+  padding: 10px 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.text-whatis{
+  position: absolute;
+  left: 24%;
+  width: 400px;
+}
+
+.lk-whatis{
+  background-color: rgb(49, 68, 88);
+  border-radius: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.col-3{
+  width: 33%;
+}
+
+.container2{
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 1200px;
+  text-align: center;
+}
+
+.sec-blocks{
+  background: white;
+  padding: 10px 0;
+  margin: 0 auto; 
+}
+
+#sec-blocks h3, #sec-blocks h2{
+  text-align: center;
+  color: rgb(83, 88, 98);
+}
+
+#sec-blocks p{
+  color: rgb(135, 145, 156);
+}
+
+.text-box{
+  color: rgb(135, 145, 156);
+  padding: 10px 60px;
+  margin: 0 auto;
+}
+
+.brand-text{
+  color: rgb(208, 74, 73);
+}
